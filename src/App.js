@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Visualizer from "./main/Visualizer"
 
 function App() {
   return (
     <div className="App">
-      <visualizer></visualizer>
+      <Visualizer ></Visualizer>
     </div>
   );
 }
